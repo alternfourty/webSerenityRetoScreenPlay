@@ -4,5 +4,5 @@ Feature: Add an Item to the Shopping Cart
   @AddItemToCart
   Scenario: User adds the item the cart
     Given The user is able to access the exito store
-    When The user search for the item and clicks the "agregar" button
+    When The user search for the item and clicks the agregar button
     Then The item will be listed on the shopping cart list
